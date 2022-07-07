@@ -1,3 +1,4 @@
+import 'package:api_test/ApiHelperTest.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,9 +33,10 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
+    var apiHelper = ApiHelperTest();
+    apiHelper.getPosts2().then((value) => setState(() {
+          _counter = value.length;
+        }));
   }
 
   @override

@@ -1,6 +1,7 @@
 import 'package:api_test/Post.dart';
-import 'package:api_test/RestClient.dart';
 import 'package:dio/dio.dart';
+
+import 'RestClient.dart';
 
 class ApiHelperTest {
   final client = RestClient(Dio());

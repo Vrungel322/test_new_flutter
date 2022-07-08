@@ -6,8 +6,8 @@ import 'MyHomePage.dart';
 void main() {
   //init all dependencies via Injector.
   // ORDER MATTERS
-  ApiTestModule.initialise(AppInjector.injector);
-  PostModule.initialise(AppInjector.injector);
+  ApiTestModule.initialise();
+  PostModule.initialise();
 
   final app = const MyApp();
 
@@ -15,7 +15,7 @@ void main() {
     providers: [
       BlocProvider<BlocPosts>(
         create: (context) {
-          return AppInjector.injector.get<BlocPosts>();
+          return GetIt.instance.get<BlocPosts>();
         },
       ),
     ],

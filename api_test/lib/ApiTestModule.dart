@@ -1,13 +1,14 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_simple_dependency_injection/injector.dart';
+import 'package:get_it/get_it.dart';
 
 import 'ApiHelperTest.dart';
 import 'RestClient.dart';
 
 class ApiTestModule {
-  static void initialise(Injector injector) {
-    injector.map<Dio>((i) => Dio(), isSingleton: true);
-    injector.map<RestClient>((i) => RestClient(i.get<Dio>()), isSingleton: true);
-    injector.map<ApiHelperTest>((i) => ApiHelperTest(i.get<RestClient>()), isSingleton: true);
+  static void initialise() {
+    GetIt getIt = GetIt.instance;
+    getIt.registerLazySingleton<Dio>(() => Dio());
+    getIt.registerLazySingleton<RestClient>(() => RestClient(getIt<Dio>()));
+    getIt.registerLazySingleton<ApiHelperTest>(() => ApiHelperTest(getIt<RestClient>()));
   }
 }

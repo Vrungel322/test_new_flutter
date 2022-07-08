@@ -12,13 +12,5 @@ dependencies:
   core_api:
     path: ../core_api
 
-  flutter:
-    sdk: flutter
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
-
-
-flutter:

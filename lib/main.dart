@@ -4,13 +4,18 @@ import 'package:flutter/material.dart';
 import 'MyHomePage.dart';
 
 void main() {
+  //init all dependencies via Injector.
+  // ORDER MATTERS
+  ApiTestModule.initialise(AppInjector.injector);
+  PostModule.initialise(AppInjector.injector);
+
   final app = const MyApp();
 
   runApp(MultiBlocProvider(
     providers: [
       BlocProvider<BlocPosts>(
         create: (context) {
-          return BlocPosts(ApiHelperTest());
+          return AppInjector.injector.get<BlocPosts>();
         },
       ),
     ],

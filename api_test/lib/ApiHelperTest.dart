@@ -1,14 +1,13 @@
 import 'package:api_test/Post.dart';
-import 'package:dio/dio.dart';
 
 import 'RestClient.dart';
 
 class ApiHelperTest {
-  final client = RestClient(Dio());
+  final RestClient _client;
+
+  ApiHelperTest(this._client);
 
   Future<List<Post>> getPosts2() {
-    return client.getTasks();
+    return _client.getTasks();
   }
 }
-
-

@@ -5,4 +5,5 @@ export 'package:core_logic/core_logic.dart';
 
 export 'BlocPosts.dart';
 export 'PostEvent.dart';
+export 'PostModule.dart';
 export 'PostState.dart';

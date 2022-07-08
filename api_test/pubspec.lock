@@ -162,6 +162,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.6"
+  feature_api_interceptors:
+    dependency: "direct main"
+    description:
+      path: "../feature_api_interceptors"
+      relative: true
+    source: path
+    version: "1.0.0+1"
   file:
     dependency: transitive
     description:

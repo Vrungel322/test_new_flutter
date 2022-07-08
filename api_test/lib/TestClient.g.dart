@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'RestClient.dart';
+part of 'TestClient.dart';
 
 // **************************************************************************
 // RetrofitGenerator
@@ -8,8 +8,8 @@ part of 'RestClient.dart';
 
 // ignore_for_file: unnecessary_brace_in_string_interps
 
-class _RestClient implements RestClient {
-  _RestClient(this._dio, {this.baseUrl}) {
+class _TestClient implements TestClient {
+  _TestClient(this._dio, {this.baseUrl}) {
     baseUrl ??= 'https://jsonplaceholder.typicode.com/';
   }
 

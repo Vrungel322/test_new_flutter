@@ -9,10 +9,10 @@ environment:
 dependencies:
   build_runner: ^2.1.11
   retrofit_generator: ^4.0.1
+  core_api:
+    path: ../core_api
   core_logic:
     path: ../core_logic
-  feature_api_interceptors:
-    path: ../feature_api_interceptors
 
 
 dev_dependencies:

@@ -1,5 +1,6 @@
-name: feature_api_interceptors
-description: A new Flutter module project.
+name: core_api
+description: A new Flutter project.
+
 version: 1.0.0+1
 
 environment:
@@ -9,5 +10,7 @@ dependencies:
   dio: ^4.0.6
   core_logic:
     path: ../core_logic
+  feature_api_interceptors:
+    path: ../feature_api_interceptors
 
 dev_dependencies:

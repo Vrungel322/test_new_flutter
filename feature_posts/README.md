@@ -1,4 +1,4 @@
-# core_api
+# feature_posts
 
 A new Flutter module project.
 

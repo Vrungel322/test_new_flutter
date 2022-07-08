@@ -1,14 +1,11 @@
-name: api_test
+name: core_logic
 description: A new Flutter module project.
-
 version: 1.0.0+1
 
 environment:
   sdk: ">=2.17.5 <3.0.0"
 
 dependencies:
-  build_runner: ^2.1.11
-  retrofit_generator: ^4.0.1
-
+  flutter_bloc: ^8.0.1
 
 dev_dependencies:

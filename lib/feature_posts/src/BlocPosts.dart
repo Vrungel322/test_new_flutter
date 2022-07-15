@@ -1,13 +1,4 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-// import '../api_test/ApiHelperTest.dart';
-// import '../api_test/Post.dart';
-import '../api_test/api_test.dart';
-// import '../core_logic/BaseCustomBloc.dart';
-// import '../core_logic/BaseState.dart';
-import '../core_logic/core_logic.dart';
-import 'PostEvent.dart';
-import 'PostState.dart';
+part of feature_posts;
 
 class BlocPosts extends BaseCustomBloc<PostEvent, PostState> {
   final ApiHelperTest _apiHelperTest;

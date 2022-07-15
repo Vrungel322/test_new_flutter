@@ -1,4 +1,4 @@
-import '../core_logic/core_logic.dart';
+part of feature_posts;
 
 abstract class PostEvent extends BaseEvent {}
 

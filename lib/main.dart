@@ -4,8 +4,9 @@ import 'package:get_it/get_it.dart';
 
 // import './api_test/ApiTestModule.dart';
 import './api_test/api_test.dart';
-import './feature_posts/BlocPosts.dart';
-import './feature_posts/PostModule.dart';
+// import './feature_posts/BlocPosts.dart';
+// import './feature_posts/PostModule.dart';
+import './feature_posts/feature_posts.dart';
 import 'MyHomePage.dart';
 
 void main() {

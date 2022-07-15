@@ -1,8 +1,7 @@
-import 'package:get_it/get_it.dart';
 
-// import '../api_test/ApiHelperTest.dart';
-import '../api_test/api_test.dart';
-import 'BlocPosts.dart';
+
+part of feature_posts;
+
 
 class PostModule {
   static void initialise() {

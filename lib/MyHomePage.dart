@@ -3,7 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 // import './api_test/Post.dart';
 import './api_test/api_test.dart';
-import './core_logic/BaseState.dart';
+// import './core_logic/BaseState.dart';
+import './core_logic/core_logic.dart';
 import './feature_posts/BlocPosts.dart';
 import './feature_posts/PostEvent.dart';
 import './feature_posts/PostState.dart';

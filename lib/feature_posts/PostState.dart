@@ -1,6 +1,6 @@
 // import '../api_test/Post.dart';
 import '../api_test/api_test.dart';
-import '../core_logic/BaseState.dart';
+import '../core_logic/core_logic.dart';
 
 abstract class PostState extends BaseState {}
 

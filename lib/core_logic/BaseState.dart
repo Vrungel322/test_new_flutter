@@ -1,3 +1,4 @@
+part of core_logic;
 
 abstract class BaseState {}
 

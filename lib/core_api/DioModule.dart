@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:feature_api_interceptors/feature_api_interceptors.dart';
 import 'package:get_it/get_it.dart';
+
+import '../feature_interceptors/ApiInterceptorsModule.dart';
 
 class DioModule {
   static const String DIO_DEFAULT = 'DIO_DEFAULT';

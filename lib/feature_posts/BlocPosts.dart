@@ -1,6 +1,9 @@
-import 'package:api_test/api_test.dart';
-import 'package:core_logic/core_logic.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../api_test/ApiHelperTest.dart';
+import '../api_test/Post.dart';
+import '../core_logic/BaseCustomBloc.dart';
+import '../core_logic/BaseState.dart';
 import 'PostEvent.dart';
 import 'PostState.dart';
 

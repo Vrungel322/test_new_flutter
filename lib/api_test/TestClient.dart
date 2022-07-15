@@ -1,6 +1,7 @@
-import 'package:api_test/Post.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
+
+import 'Post.dart';
 
 part 'TestClient.g.dart';
 

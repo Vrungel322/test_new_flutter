@@ -1,7 +1,7 @@
-import 'package:core_api/core_api.dart';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 
+import '../core_api/DioModule.dart';
 import 'ApiHelperTest.dart';
 import 'TestClient.dart';
 

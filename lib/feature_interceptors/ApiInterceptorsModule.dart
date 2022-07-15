@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 
-import 'LoggingInterceptor.dart';
+import '../feature_interceptors/LoggingInterceptor.dart';
 
 class ApiInterceptorsModule {
   static const String LOGIN_INTERCEPTOR_NAME = 'LOGIN_INTERCEPTOR_NAME';

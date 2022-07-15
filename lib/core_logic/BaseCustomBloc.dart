@@ -1,7 +1,7 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:bloc/bloc.dart';
 
-import 'BaseEvent.dart';
-import 'BaseState.dart';
+import '../core_logic/BaseEvent.dart';
+import '../core_logic/BaseState.dart';
 
 abstract class BaseCustomBloc<E, S> extends Bloc<BaseEvent, BaseState> {
   BaseCustomBloc(BaseState initialState) : super(initialState);

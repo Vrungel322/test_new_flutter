@@ -1,5 +1,4 @@
-import 'package:api_test/Post.dart';
-
+import 'Post.dart';
 import 'TestClient.dart';
 
 class ApiHelperTest {

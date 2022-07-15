@@ -1,4 +1,4 @@
-import 'package:core_logic/core_logic.dart';
+import '../core_logic/BaseEvent.dart';
 
 abstract class PostEvent extends BaseEvent {}
 

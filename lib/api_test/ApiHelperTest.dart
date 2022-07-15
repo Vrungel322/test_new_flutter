@@ -1,4 +1,4 @@
-part of 'api_test.dart';
+part of api_test;
 
 class ApiHelperTest {
   final TestClient _client;

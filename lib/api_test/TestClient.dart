@@ -1,4 +1,4 @@
-part of 'api_test.dart';
+part of api_test;
 
 
 // command for generate _TestClient if module is flutter module:  flutter pub run build_runner build --delete-conflicting-outputs

@@ -1,6 +1,4 @@
-import 'dart:async';
-
-import 'package:dio/dio.dart';
+part of feature_interceptors;
 
 /// [LoggingInterceptor] is used to print logs during network requests.
 /// It's better to add [LoggingInterceptor] to the tail of the interceptor queue,

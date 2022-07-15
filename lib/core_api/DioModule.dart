@@ -1,4 +1,4 @@
-part of 'core_api.dart';
+part of core_api;
 
 class DioModule {
   static const String DIO_DEFAULT = 'DIO_DEFAULT';

@@ -3,6 +3,6 @@ library core_api;
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 
-import '../feature_interceptors/ApiInterceptorsModule.dart';
+import '../feature_interceptors/feature_interceptors.dart';
 
 part 'DioModule.dart';

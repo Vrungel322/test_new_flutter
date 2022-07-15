@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'TestClient.dart';
+part of api_test;
 
 // **************************************************************************
 // RetrofitGenerator

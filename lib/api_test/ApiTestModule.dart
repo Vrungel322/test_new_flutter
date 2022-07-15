@@ -1,9 +1,4 @@
-import 'package:dio/dio.dart';
-import 'package:get_it/get_it.dart';
-
-import '../core_api/DioModule.dart';
-import 'ApiHelperTest.dart';
-import 'TestClient.dart';
+part of 'api_test.dart';
 
 class ApiTestModule {
   static void initialise() {

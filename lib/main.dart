@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
 
-import './api_test/ApiTestModule.dart';
+// import './api_test/ApiTestModule.dart';
+import './api_test/api_test.dart';
 import './feature_posts/BlocPosts.dart';
 import './feature_posts/PostModule.dart';
 import 'MyHomePage.dart';

@@ -1,5 +1,4 @@
-import 'Post.dart';
-import 'TestClient.dart';
+part of 'api_test.dart';
 
 class ApiHelperTest {
   final TestClient _client;

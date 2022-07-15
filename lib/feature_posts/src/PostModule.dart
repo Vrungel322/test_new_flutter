@@ -1,7 +1,4 @@
-
-
 part of feature_posts;
-
 
 class PostModule {
   static void initialise() {

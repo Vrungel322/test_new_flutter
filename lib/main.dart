@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get_it/get_it.dart';
 
 import './api_test/api_test.dart';
 import './feature_posts/feature_posts.dart';
